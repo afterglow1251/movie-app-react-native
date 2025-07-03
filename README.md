@@ -48,4 +48,34 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
 # movie-app-react-native
+
+## About project
+
+This mobile app is built with React Native and Expo, providing a user-friendly interface for browsing movies.  
+Key features include:
+
+- Viewing the latest movies (Latest Movies)
+- Browsing trending movies by day and week (Trending Movies per day | week)
+- Searching movies by title
+- Detailed information about selected movies
+
+## The project uses the TMDB API to fetch up-to-date movie data.
+
+## Setting environment variables (.env)
+
+This application requires some environment variables to work correctly with the API. You need to create an .env file in the root directory of your project and add the following variables to it:
+
+```
+EXPO_PUBLIC_MOVIES_BASE_URL=
+EXPO_PUBLIC_MOVIES_API_KEY=
+EXPO_PUBLIC_APPWRITE_PROJECT_ID=
+EXPO_PUBLIC_APPWRITE_DATABASE_ID=
+EXPO_PUBLIC_APPWRITE_COLLECTION_ID=
+EXPO_PUBLIC_APPWRITE_ENDPOINT=
+```
+
+## ⚠️ Importantly
+
+EXPO_PUBLIC_MOVIES_API_KEY: You will need to obtain an API key from the [TMDB API](https://developer.themoviedb.org/reference/intro/getting-started).
